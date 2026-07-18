@@ -1,0 +1,27 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.mobilefacenet",
+  "name": "MobileFaceNet",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "MIT",
+  "compat": ">=0.1",
+  "description": "Maps a detected face to an identity embedding. Uses: face ID / recognition; per-person tagging; grouping clips by person.",
+  "author": "azphalt",
+  "homepage": "https://github.com/HereLiesAz/azphalt-mobilefacenet",
+  "assets": [
+    {
+      "type": "onnx",
+      "path": "",
+      "role": "face-embedding",
+      "remoteUrl": "https://github.com/HereLiesAz/azphalt-mobilefacenet/releases/latest/download/face-embed.onnx",
+      "modelLicense": "MIT (MobileFaceNet)",
+      "tags": [
+        "face-id",
+        "embedding",
+        "image"
+      ]
+    }
+  ],
+  "files": {}
+}
