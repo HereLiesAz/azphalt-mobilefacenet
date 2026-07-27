@@ -4,7 +4,7 @@
   "name": "MobileFaceNet",
   "version": "1.0.0",
   "kind": "asset",
-  "license": "MIT",
+  "license": "LicenseRef-Upstream-Unstated",
   "compat": ">=0.1",
   "description": "Maps a detected face to an identity embedding. Uses: face ID / recognition; per-person tagging; grouping clips by person.",
   "author": "HereLiesAz",
